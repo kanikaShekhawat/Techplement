@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^8.2.2",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.10"
+  },
+  "scripts": {
+    "start:frontend": "cd frontend && npm run dev",
+    "start:Quotes": "cd Quotes && npm run dev",
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:Quotes\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^3.1.4"
+  }
+}

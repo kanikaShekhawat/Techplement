@@ -1,0 +1,13 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  background-color: #BBC8FE;
+}
+.box-shadow{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.transtion{
+  transition: all 0.3s linear;
+}
